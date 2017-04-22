@@ -1,0 +1,18 @@
+1. Installing Node.js with Express Framework
+
+          Step 1 : Install node-v6.10.2-x64 [https://nodejs.org/dist/v6.10.2/node-v6.10.2-x64.msi]
+          Step 2 : Create folders in C drive [C:-> source -> node -> newapp]
+          Step 3 : In command prompt, go to directory 'C:\source\node\newapp'
+                   cd source
+                   cd node
+                   cd newapp
+
+                   check node.js version : node -v
+                   check npm version     : npm -v
+
+                   npm install jade
+                   npm install stylus
+
+                   npm install express
+         
+2. Installing <next software>       
