@@ -15,4 +15,6 @@
 
                    npm install express
          
-2. Installing <next software>       
+2. Installing MongoDB, Ubuntu & Azure (Both these URL's are all what we want!!)
+          http://timmyreilly.azurewebsites.net/running-mongo-on-ubuntu-virtual-machine-in-azure/
+          http://timmyreilly.azurewebsites.net/intro-to-ubuntu-virtual-machines-on-azure/
