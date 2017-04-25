@@ -1,32 +1,12 @@
 db.Recipe.insert({
-"id": "0001",
-"category" : "breakfast",
-"name" : "Apple Crisp",
-"rating": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/4_star_jvrrku.png",
-"img": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/apple_crisp_t22uyq.jpg",
-"cooking time" : "30 minutes",
-"directions" : "
-Preheat the oven to 350 degrees F.
-Slice apples and place in a bag or bowl with 1 tbsp brown sugar and cinnamon, stirring to coat.
-Place apples in a small baking dish.
-Combine oats, protein powder, walnut pieces, cinnamon, and 1 tbsp brown sugar.
-Once combined, drizzle honey over the oat mixture and stir to coat.
-Spoon mixture over the apples in the baking dish.
-Bake apples for about 20 minutes.
-When apple crisp is done, allow it to cool for five minutes and then top with Greek yogurt.
-",
-"ingredients" :
-"
-1 cup sliced Apple
-2 tbsp Brown Sugar
-1/8 tsp Cinnamon
-1/2 cup rolled Oats
-1 scoop Vanilla Protein Powder
-2 tbsp Walnut pieces
-Dash of Cinnamon
-1/4 cup Organic Honey
-1/2 cup Low-fat Greek Yogurt
-"})
+id: 1001, 
+category : "breakfast", 
+name : "Apple Crisp", 
+rating: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/4_star_jvrrku.png", 
+img: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/apple_crisp_t22uyq.jpg", 
+cooking_time : "30 minutes", 
+directions : "Preheat the oven to 350 degrees F. \nSlice apples and place in a bag or bowl with 1 tbsp brown sugar and cinnamon, stirring to coat. \nPlace apples in a small baking dish. \nCombine oats, protein powder, walnut pieces, cinnamon, and 1 tbsp brown sugar. \nOnce combined, drizzle honey over the oat mixture and stir to coat. \nSpoon mixture over the apples in the baking dish. \nBake apples for about 20 minutes. \nWhen apple crisp is done, allow it to cool for five minutes and then top with Greek yogurt.",
+ingredients : "1 cup sliced Apple \n2 tbsp Brown Sugar \n1/8 tsp Cinnamon \n1/2 cup rolled Oats \n1 scoop Vanilla Protein Powder \n2 tbsp Walnut pieces \nDash of Cinnamon \n1/4 cup Organic Honey \n1/2 cup Low-fat Greek Yogurt."})
  
 
 db.Recipe.insert({
@@ -102,7 +82,7 @@ db.Recipe.insert({
 "directions" : "
 Heat a heavy cooking vessel on a high heat and once its hot, add the refined oil and swirl the pan to coat the base evenly.
 Once the oil is nice and hot, add the cumin seeds and saute them until crackling and fragrant.
-Now add the onions, garlic and ginger and sauté them gently until they take on a light golden brown color.
+Now add the onions, garlic and ginger and sautÃ© them gently until they take on a light golden brown color.
 Turn up the heat and then add the spice powders.
 Toast the spices on a high heat until they are intensely aromatic and well toasted.
 Then add a little water and bhuno the base ingredients repeatedly until the oil rises to the top and the masala is well cooked out.
