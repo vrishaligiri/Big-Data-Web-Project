@@ -1,0 +1,130 @@
+db.Recipe.insert({
+"id": "0001",
+"category" : "breakfast",
+"name" : "Apple Crisp",
+"rating": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/4_star_jvrrku.png",
+"img": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/apple_crisp_t22uyq.jpg",
+"cooking time" : "30 minutes",
+"directions" : "
+Preheat the oven to 350 degrees F.
+Slice apples and place in a bag or bowl with 1 tbsp brown sugar and cinnamon, stirring to coat.
+Place apples in a small baking dish.
+Combine oats, protein powder, walnut pieces, cinnamon, and 1 tbsp brown sugar.
+Once combined, drizzle honey over the oat mixture and stir to coat.
+Spoon mixture over the apples in the baking dish.
+Bake apples for about 20 minutes.
+When apple crisp is done, allow it to cool for five minutes and then top with Greek yogurt.
+",
+"ingredients" :
+"
+1 cup sliced Apple
+2 tbsp Brown Sugar
+1/8 tsp Cinnamon
+1/2 cup rolled Oats
+1 scoop Vanilla Protein Powder
+2 tbsp Walnut pieces
+Dash of Cinnamon
+1/4 cup Organic Honey
+1/2 cup Low-fat Greek Yogurt
+"})
+ 
+
+db.Recipe.insert({
+"id": "0002",
+"category" : "breakfast",
+"name" : "Baked French Toast",
+"rating": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png",
+"img": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/5_star_brjmwc.png",
+"cooking time" : "30 minutes",
+"directions" : "
+Preheat the oven to 350 degrees F.
+Lay bread slices in a shallow baking dish. Make sure they do not over lap.
+In a bowl, whisk together eggs, Greek yogurt, milk, sugar, and extracts until well combined.
+Pour egg mixture over the bread slices, making sure they are fully coated.
+Top bread with pecans and then cover baking dish with foil.
+Bake for 25 minutes and then serve with sugar-free maple syrup.
+",
+"ingredients" :
+"
+6 slices Ezekiel Bread
+6 large Eggs
+1/2 cup Low-fat Geek Yogurt
+1 1/2 cups Milk
+2 tbsp Sugar
+1 tsp Vanilla Extract
+1 tsp Maple Extract
+1/2 cup Pecans
+"})
+
+
+db.Recipe.insert({
+"id": "0003",
+"category" : "lunch",
+"name" : "Gujarati kadhi",
+"rating": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png",
+"img": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/Gujarati_Kadhi_jyhsq9.jpg",
+"cooking time" : "40 minutes",
+"directions" : "
+Take a bowl and mix the curd, gram four, asafoetida, jaggery, salt and water. 
+Mix it well using a whisk. 
+Heat a pan and pour in the mixture. 
+Keep stirring till the curry thins out. 
+As the curry thins out, add the seasoning and boil the curry for 5-6 minutes.
+Serve hot in a bowl.  
+For the seasoning: 
+Heat clarified butter and add cumin seeds, mustard seeds, cloves, ginger, green chillies and the red chilly.
+",
+"ingredients" :
+"
+3 cups curd
+3 Tbsp gram flour
+A pinch of asafoetida
+A pinch of jaggery
+1 tsp salt
+3 cups water
+1 Tbsp clarified butter
+1/4 cumin seeds
+1/2 tsp mustard seeds
+3 cloves
+1/2 tsp chopped ginger
+Curry leaves
+1 whole red chilly
+3 green chillies chopped
+"})
+
+db.Recipe.insert({
+"id": "0004",
+"category" : "dinner",
+"name" : "Lemon Chicken",
+"rating": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png",
+"img": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/punjabi_lemon_chicken_sme25v.jpg",
+"cooking time" : "150 minutes",
+"directions" : "
+Heat a heavy cooking vessel on a high heat and once its hot, add the refined oil and swirl the pan to coat the base evenly.
+Once the oil is nice and hot, add the cumin seeds and saute them until crackling and fragrant.
+Now add the onions, garlic and ginger and sauté them gently until they take on a light golden brown color.
+Turn up the heat and then add the spice powders.
+Toast the spices on a high heat until they are intensely aromatic and well toasted.
+Then add a little water and bhuno the base ingredients repeatedly until the oil rises to the top and the masala is well cooked out.
+Add some salt and mix well, then add the chicken thighs to the pan.
+Turn up the heat and fry the chicken in the masala until it is evenly coated with the flavor of the base and is a very light yellowy golden brown in color.  Now add the lemon and orange juice to the chicken and deglaze the pan well, scraping up the flavor packed pan deposits on the base of the pan. Stir everything together well to combine, then add a little sugarcane juice to balance the acidity of the lemon juice.  Bring the chicken to a boil, then turn the heat to low, cover the pan and let the chicken simmer away until it is cooked to perfection and almost falling off the bone.  Once the chicken is cooked, uncover the pan and simmer the light gravy until slightly reduced and concentrated in flavor. Turn off the heat, then garnish with fresh coriander and serve with hot rotis or rice. 
+",
+"ingredients" :
+"
+6 chicken thighs without skin
+For the base:
+3-4 Tbsp refined oil
+2 tsp cumin seeds
+2 onions julienned
+6 cloves garlic chopped
+1/2 inch ginger chopped
+3-4 hot green chillies
+3/4 tsp turmeric powder
+1 tsp coriander powder
+Salt to taste
+1 cup fresh lemon juice
+1/2 cup orange juice
+1/4 cup fresh sugarcane juice
+Fresh coriander to garnish
+"})
+
