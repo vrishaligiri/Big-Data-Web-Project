@@ -1,6 +1,6 @@
 db.Recipe.insert({
 id: 1001, 
-category : "breakfast", 
+category : "Breakfast", 
 name : "Apple Crisp", 
 rating: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/4_star_jvrrku.png", 
 img: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/apple_crisp_t22uyq.jpg", 
@@ -11,7 +11,7 @@ ingredients : "1 cup sliced Apple \n2 tbsp Brown Sugar \n1/8 tsp Cinnamon \n1/2 
 
 db.Recipe.insert({
 "id": "0002",
-"category" : "breakfast",
+"category" : "Breakfast",
 "name" : "Baked French Toast",
 "rating": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png",
 "img": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/5_star_brjmwc.png",
@@ -39,7 +39,7 @@ Bake for 25 minutes and then serve with sugar-free maple syrup.
 
 db.Recipe.insert({
 "id": "0003",
-"category" : "lunch",
+"category" : "Lunch",
 "name" : "Gujarati kadhi",
 "rating": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png",
 "img": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/Gujarati_Kadhi_jyhsq9.jpg",
@@ -74,7 +74,7 @@ Curry leaves
 
 db.Recipe.insert({
 "id": "0004",
-"category" : "dinner",
+"category" : "Dinner",
 "name" : "Lemon Chicken",
 "rating": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png",
 "img": "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/punjabi_lemon_chicken_sme25v.jpg",
