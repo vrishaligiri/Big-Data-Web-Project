@@ -1,0 +1,95 @@
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Koushika Kalyani" content="">
+  <meta name="Spring 2017 Big Data Project" content="">
+  <meta name="Ecommerce Search Engine" content="">
+  <title> Welcome to Recepie World !! </title>
+   <link rel = "stylesheet"
+   type = "text/css"
+   href = "C:\Users\gd_su\Desktop\recipie_css.css" />
+   <script src="jquery-3.1.1.min.js"></script> 
+    <script type="text/javascript" src="search_js.js"></script>
+ </head>
+
+ <body>
+
+ <form class="searchForm" method="get" action="/process_get">    
+ <div id="top" >
+ <div>
+<img align="center" src="C:\Users\gd_su\Desktop\header_image.png" width="1500" height="300"/>
+</div>
+
+<input class="searchTerm"  placeholder="Search…" autocomplete="off" type ="text" name="searchItem"/>
+<input type="image" class="searchBtn" src="C:\Users\gd_su\Desktop\search.png" width = "30" height="15"/>
+
+<div align="right" style="position:relative;top:120px;font-weight:bold;color:#F0F8FF;">
+		Follow us on: <!--p id="username"/> <input type="button" onclick="javascript:showname();" value="displayname"/> --> 
+				<img alt="social" src="C:\Users\gd_su\Desktop\social_media.png" width="200" height="80"/> 
+</div>
+</div>
+
+<div id="left"> </div>
+
+<div align="center" id="myDynamicTable">
+<!--<input type="button" id="create" value="Click here" onclick="javascript:addTable()"> -->
+<div style="display:none;"  id="searchResults"><%= searchResults %></div>
+</div>
+		  
+</form>
+<br>
+<div id="footer"> 
+
+<table align="center" style="background-color:rgb(228, 155, 148)" id="footerinfo">
+  <tr>
+    <th>Get to Know Us</th>
+    <th>Connect with Us</th>
+    <th>Collaborate with Us</th>
+	<th>Help us Improve</th>
+	<th>Contact Us</th>
+  </tr>
+  <tr>
+    <td><a href="#"> About Us </a> </td>
+    <td><a href="#"> Facebook </a></td>
+    <td><a href="#"> Refer & Earn Rs.200</a></td>
+	<td><a href="#"> Your Account</a></td>
+	<td><a href="#"> Your Account</a></td>
+  </tr>
+  <tr>
+    <td><a href="#"> Careers</a></td>
+    <td><a href="#"> Twitter</a></td>
+    <td><a href="#"> Send your Recepie</a></td>
+	<td><a href="#"> Give us Feedback </a></td>
+  </tr>
+  <tr>
+    <td><a href="#"> Press Releases</a></td>
+    <td><a href="#"> Instagram</a></td>
+    <td><a href="#"> Become an Affiliate</a></td>
+	<td><a href="#"> 100% Purchase Protection</a></td>
+  </tr>
+  <tr>
+    <td><a href="#"> Online Store Cares</a></td>
+    <td><a href="#"> The OnlineStore.in Blog</a></td>
+    <td><a href="#"> Advertise Your Products</a></td>
+	<td><a href="#"> Help</a></td>
+  </tr>
+  <tr>
+    <td><a href="#"> Feedback</a></td>
+	<td><a href="#"> Online Store Assistant</a></td>
+  </tr>
+   <tr>
+    <td><a href="#"> Gift a Smile</a></td>
+    <td></td>
+    <td></td>
+	<td><a href="#"> Online Store Assistant</a></td>
+  </tr>
+</table>
+
+
+
+
+</div>
+
+</body>
+</html>

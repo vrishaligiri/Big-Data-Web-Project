@@ -1,0 +1,244 @@
+body{
+background-color:lightgray;
+}
+
+
+#top{
+  float:top;
+  position: relative;
+  width:1200px;
+  height: 150px;
+  background-color:#191970;
+  }
+  
+#left{
+  float:left;
+  position: relative;
+/*  width:200px;
+  height: 550px;*/
+  background-color:	#F5F5F5;
+  }
+
+.fluid-img{width:80%;}
+.fluid-img1{width:55%;
+ position: relative;
+   height: 180px;
+ }
+
+#footer{
+  float:bottom;
+  position: relative;
+  top: 300px;
+  width:1200px;
+  height: 250px;
+  background-color:#BDC3C7;
+ }
+
+#footerinfo{
+width: 1200px;
+border-spacing:10px;
+  height: 250px;
+text-align:left;
+}
+
+p{
+ position: relative;
+ text-align: right;
+ font-size: 15px;
+ font-weight: bold;
+ color: 	#F0F8FF;
+}
+tr:hover{background-color:#f5f5f5}
+
+.tableStyle {
+    border-collapse: collapse;
+	/*border: 1px solid black;*/
+    width: 100%;
+}
+
+.tdStyle {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #000080;
+	font-style: normal; 
+	font-size:14px;
+
+	font: sans-serif;
+}
+
+.searchProduct,.collapsed{
+  width:500px;
+  margin:20px;
+  width:230px;
+  position:relative;
+  background-color:#EAEDED;
+  padding:20px;
+  float:left;
+  height:30px;
+  -moz-box-shadow:-8px 8px 20px -6px #000;
+  -webkit-box-shadow:-8px 8px 20px -6px #000;
+  box-shadow:-8px 8px 20px -6px #000;
+  -moz-border-radius-bottomleft: 40px;
+  -webkit-border-bottom-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  -webkit-transition: height .5s ease;
+  -moz-transition: height .5s ease;
+  -ms-transition: height .5s ease;
+  -o-transition: height .5s ease;
+  transition: height .5s ease;
+}
+
+.expanded{
+  height:160px;
+}
+
+
+/* ==========================
+   Search Box
+   ========================== */
+
+.searchTerm:focus {
+  width: 550px;
+  background-color:#fff;
+  color: #000;
+  opacity:1;
+  -webkit-box-shadow:1px 1px 9px rgba(0,0,0,0.85);
+  -moz-box-shadow:1px 1px 9px rgba(0,0,0,0.85);
+  box-shadow:1px 1px 9px rgba(0,0,0,0.85);
+  font-weight:800;
+}
+
+.searchTerm{
+position: absolute;
+left: 400px;
+top: 40px;
+padding: 5px 10px;
+background:#EAEDED;
+color:#444;
+border: 0;
+width: 550px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow:1px 1px 5px rgba(0,0,0,0.65);
+-moz-box-shadow:1px 1px 5px rgba(0,0,0,0.65);
+box-shadow: 1px 1px 5px rgba(0,0,0,0.65);
+outline: 0;
+}
+
+.searchBtn {
+border: 0;
+position: absolute;
+left: 1010px;
+top: 38px;
+width: 30px;
+background:#ccc;
+cursor: pointer;
+margin: 2px -38PX;
+border-left: 2px solid skyblue;
+height: 26px;
+font-weight: 900;
+font-size: 12px;
+background-color: #f6f5ef;
+color:#009F8A;
+-webkit-border-radius:0px 5px 5px 0px;
+-moz-border-radius:0px 5px 5px 0px;
+border-radius:0px 5px 5px 0px;
+}
+
+/* ==========================
+   tooltip/hover popup
+   ========================== */
+
+.suggestionBox {
+display:none;
+background-color:white;
+color: #3b3835;
+border: 1px solid rgba(0,0,0,0.3);
+border-top: 0;
+float: left;
+left: 0;
+list-style: none;
+margin: 20px;
+padding: 8px;
+position: absolute;
+top: 31px;
+width: 180px;
+z-index: 1000;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+box-shadow: 0 1px 3px rgba(0,0,0,0.25);  
+}
+
+.suggestionBox:before {
+content: '';
+display: inline-block;
+border-left: 7px solid transparent;
+border-right: 7px solid transparent;
+border-bottom: 7px solid #fff;
+position: absolute;
+top: -7px;
+left: 9px;
+}
+
+.searchForm:nth-child(2){
+ background-color:#fff;
+}
+
+.searchForm:nth-child(2) .suggestionBox{
+background:skyblue;
+color:white;
+}
+
+.searchForm:nth-child(2) .suggestionBox::before {
+  border-bottom: 7px solid skyblue;
+}
+
+.searchForm:nth-child(3){
+ background-color:gray;
+}
+
+.searchForm:nth-child(3) .suggestionBox{
+background:beige;
+color:black;
+}
+
+searchForm:nth-child(3) .suggestionBox::before {
+  border-bottom: 7px solid beige;
+}
+
+.searchForm:nth-child(4){
+ background-color:#333;
+}
+
+.searchForm:nth-child(4) .suggestionBox{
+background:#859ce6;
+color:white;
+}
+
+.searchForm:nth-child(4) .suggestionBox::before {
+  border-bottom: 7px solid #859ce6;
+}
+
+
+
+.my-container {
+    position: relative;
+    overflow: hidden;
+}
+.my-container h1 {
+    padding: 200px;
+    position: relative;
+    z-index: 2;
+} 
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
