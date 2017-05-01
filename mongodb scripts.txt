@@ -1,43 +1,98 @@
 db.Recipe.insert({
 id: 1001, 
 category : "Breakfast", 
-name : "Apple Crisp", 
-rating: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/4_star_jvrrku.png", 
-img: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/apple_crisp_t22uyq.jpg", 
-cooking_time : "30 minutes", 
+name: "Apple Crisp", 
+detail: {
+id: 11001,
+rating: 4,
+img:{
+src: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/4_star_jvrrku.png"
+},
+},
+attr: {
+imgs: {
+src: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/apple_crisp_t22uyq.jpg",
+height: 1900,
+width: 1900
+},
+},
+cooking_time : "30 minutes",
+sevres: "4 People",
+approx_cost: "$15",
 directions : "Preheat the oven to 350 degrees F. \nSlice apples and place in a bag or bowl with 1 tbsp brown sugar and cinnamon, stirring to coat. \nPlace apples in a small baking dish. \nCombine oats, protein powder, walnut pieces, cinnamon, and 1 tbsp brown sugar. \nOnce combined, drizzle honey over the oat mixture and stir to coat. \nSpoon mixture over the apples in the baking dish. \nBake apples for about 20 minutes. \nWhen apple crisp is done, allow it to cool for five minutes and then top with Greek yogurt.",
-ingredients : "1 cup sliced Apple \n2 tbsp Brown Sugar \n1/8 tsp Cinnamon \n1/2 cup rolled Oats \n1 scoop Vanilla Protein Powder \n2 tbsp Walnut pieces \nDash of Cinnamon \n1/4 cup Organic Honey \n1/2 cup Low-fat Greek Yogurt."})
- 
+ingredients : "1 cup sliced Apple \n2 tbsp Brown Sugar \n1/8 tsp Cinnamon \n1/2 cup rolled Oats \n1 scoop Vanilla Protein Powder \n2 tbsp Walnut pieces \nDash of Cinnamon \n1/4 cup Organic Honey \n1/2 cup Low-fat Greek Yogurt."});
+
 
 db.Recipe.insert({
 id: 1002, 
 category : "Breakfast", 
-name : "Baked French Toast", 
-rating: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png", 
-img: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/5_star_brjmwc.png", 
-cooking_time : "30 minutes", 
+name : "Baked French Toast",
+detail: {
+id: 11002,
+rating: 4,
+img:{
+src: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png"
+},
+},
+attr: {
+imgs: {
+src: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/5_star_brjmwc.png",
+height: 1900,
+width: 1900
+},
+},
+cooking_time : "30 minutes",
+sevres: "4 People",
+approx_cost: "$20",
 directions : "Preheat the oven to 350 degrees F. \nLay bread slices in a shallow baking dish. Make sure they do not over lap. \nIn a bowl, whisk together eggs, Greek yogurt, milk, sugar, and extracts until well combined. \nPour egg mixture over the bread slices, making sure they are fully coated. \nTop bread with pecans and then cover baking dish with foil. \nBake for 25 minutes and then serve with sugar-free maple syrup.",
-ingredients : "6 slices Ezekiel Bread \n6 large Eggs \n1/2 cup Low-fat Geek Yogurt \n1 1/2 cups Milk \n2 tbsp Sugar \n1 tsp Vanilla Extract \n1 tsp Maple Extract \n1/2 cup Pecans"})
+ingredients : "6 slices Ezekiel Bread \n6 large Eggs \n1/2 cup Low-fat Geek Yogurt \n1 1/2 cups Milk \n2 tbsp Sugar \n1 tsp Vanilla Extract \n1 tsp Maple Extract \n1/2 cup Pecans"});
 
 
 db.Recipe.insert({
 id: 2001, 
 category : "Lunch", 
-name : "Curd Curry", 
-rating: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png", 
-img: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/Gujarati_Kadhi_jyhsq9.jpg", 
-cooking_time : "20 minutes", 
+name : "Curd Curry",
+detail: {
+id: 12001,
+rating: 3,
+img:{
+src: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png"
+},
+},
+attr: {
+imgs: {
+src: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/Gujarati_Kadhi_jyhsq9.jpg",
+height: 1900,
+width: 1900
+},
+},
+cooking_time : "20 minutes",
+sevres: "4 People",
+approx_cost: "$30",
 directions : "Take a bowl and mix the curd, gram four, asafoetida, jaggery, salt and water. \nMix it well using a whisk. \nHeat a pan and pour in the mixture. \nKeep stirring till the curry thins out. \nAs the curry thins out, add the seasoning and boil the curry for 5-6 minutes. \nServe hot in a bowl. \nFor the seasoning: \nHeat clarified butter and add cumin seeds, mustard seeds, cloves, ginger, green chillies and the red chilly.",
-ingredients : "3 cups curd \n3 Tbsp gram flour \nA pinch of asafoetida \nA pinch of jaggery \n1 tsp salt \n3 cups water \n1 Tbsp clarified butter \n1/4 cumin seeds \n1/2 tsp mustard seeds \n3 cloves \n1/2 tsp chopped ginger \nCurry leaves \n1 whole red chilly \n3 green chillies chopped"})
+ingredients : "3 cups curd \n3 Tbsp gram flour \nA pinch of asafoetida \nA pinch of jaggery \n1 tsp salt \n3 cups water \n1 Tbsp clarified butter \n1/4 cumin seeds \n1/2 tsp mustard seeds \n3 cloves \n1/2 tsp chopped ginger \nCurry leaves \n1 whole red chilly \n3 green chillies chopped"});
 
 
 db.Recipe.insert({
 id: 3001, 
 category : "Dinner", 
 name : "Lemon Chicken", 
-rating: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png", 
-img: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/punjabi_lemon_chicken_sme25v.jpg", 
-cooking_time : "150 minutes", 
+detail: {
+id: 13001,
+rating: 3,
+img:{
+src: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132672/3_star_ffmw45.png"
+},
+},
+attr: {
+imgs: {
+src: "http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/punjabi_lemon_chicken_sme25v.jpg",
+height: 1900,
+width: 1900
+},
+},
+cooking_time : "150 minutes",
+sevres: "4 People",
+approx_cost: "$50",
 directions : "Heat a heavy cooking vessel on a high heat and once its hot, add the refined oil and swirl the pan to coat the base evenly. \nOnce the oil is nice and hot, add the cumin seeds and saute them until crackling and fragrant. \nNow add the onions, garlic and ginger and sauté them gently until they take on a light golden brown color. \nTurn up the heat and then add the spice powders. \nToast the spices on a high heat until they are intensely aromatic and well toasted. \nThen add a little water and bhuno the base ingredients repeatedly until the oil rises to the top and the masala is well cooked out. \nAdd some salt and mix well, then add the chicken thighs to the pan. \nTurn up the heat and fry the chicken in the masala until it is evenly coated with the flavor of the base and is a very light yellowy golden brown in color.  Now add the lemon and orange juice to the chicken and deglaze the pan well, scraping up the flavor packed pan deposits on the base of the pan. Stir everything together well to combine, then add a little sugarcane juice to balance the acidity of the lemon juice.  Bring the chicken to a boil, then turn the heat to low, cover the pan and let the chicken simmer away until it is cooked to perfection and almost falling off the bone.  Once the chicken is cooked, uncover the pan and simmer the light gravy until slightly reduced and concentrated in flavor. Turn off the heat, then garnish with fresh coriander and serve with hot rotis or rice.",
-ingredients : "6 chicken thighs without skin \nFor the base: \n3-4 Tbsp refined oil \n2 tsp cumin seeds \n2 onions julienned \n6 cloves garlic chopped \n1/2 inch ginger chopped \n3-4 hot green chillies \n3/4 tsp turmeric powder \n1 tsp coriander powder \nSalt to taste \n1 cup fresh lemon juice \n1/2 cup orange juice \n1/4 cup fresh sugarcane juice \nFresh coriander to garnish"})
-
+ingredients : "6 chicken thighs without skin \nFor the base: \n3-4 Tbsp refined oil \n2 tsp cumin seeds \n2 onions julienned \n6 cloves garlic chopped \n1/2 inch ginger chopped \n3-4 hot green chillies \n3/4 tsp turmeric powder \n1 tsp coriander powder \nSalt to taste \n1 cup fresh lemon juice \n1/2 cup orange juice \n1/4 cup fresh sugarcane juice \nFresh coriander to garnish"});
