@@ -1,3 +1,7 @@
+DB : project
+COllection : Recipe
+**************************************************************************************************************
+
 db.Recipe.insert({
 id: 1001, 
 category : "Breakfast", 
@@ -96,3 +100,5 @@ sevres: "4 People",
 approx_cost: "$50",
 directions : "Heat a heavy cooking vessel on a high heat and once its hot, add the refined oil and swirl the pan to coat the base evenly. \nOnce the oil is nice and hot, add the cumin seeds and saute them until crackling and fragrant. \nNow add the onions, garlic and ginger and sauté them gently until they take on a light golden brown color. \nTurn up the heat and then add the spice powders. \nToast the spices on a high heat until they are intensely aromatic and well toasted. \nThen add a little water and bhuno the base ingredients repeatedly until the oil rises to the top and the masala is well cooked out. \nAdd some salt and mix well, then add the chicken thighs to the pan. \nTurn up the heat and fry the chicken in the masala until it is evenly coated with the flavor of the base and is a very light yellowy golden brown in color.  Now add the lemon and orange juice to the chicken and deglaze the pan well, scraping up the flavor packed pan deposits on the base of the pan. Stir everything together well to combine, then add a little sugarcane juice to balance the acidity of the lemon juice.  Bring the chicken to a boil, then turn the heat to low, cover the pan and let the chicken simmer away until it is cooked to perfection and almost falling off the bone.  Once the chicken is cooked, uncover the pan and simmer the light gravy until slightly reduced and concentrated in flavor. Turn off the heat, then garnish with fresh coriander and serve with hot rotis or rice.",
 ingredients : "6 chicken thighs without skin \nFor the base: \n3-4 Tbsp refined oil \n2 tsp cumin seeds \n2 onions julienned \n6 cloves garlic chopped \n1/2 inch ginger chopped \n3-4 hot green chillies \n3/4 tsp turmeric powder \n1 tsp coriander powder \nSalt to taste \n1 cup fresh lemon juice \n1/2 cup orange juice \n1/4 cup fresh sugarcane juice \nFresh coriander to garnish"});
+
+
