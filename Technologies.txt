@@ -1,14 +1,15 @@
 
 1. Ubuntu Virtual Machines on Azure
-          http://timmyreilly.azurewebsites.net/intro-to-ubuntu-virtual-machines-on-azure/
-          
+          http://timmyreilly.azurewebsites.net/intro-to-ubuntu-virtual-machines-on-azure/
+          
 2. Running Mongo on Ubuntu Virtual Machine in Azure
-          http://timmyreilly.azurewebsites.net/running-mongo-on-ubuntu-virtual-machine-in-azure/
-          
+          http://timmyreilly.azurewebsites.net/running-mongo-on-ubuntu-virtual-machine-in-azure/
+          
 3. Running Node and Express on Ubuntu VM
-          http://timmyreilly.azurewebsites.net/running-node-and-express-on-ubuntu-vm/
-          
-
+          http://timmyreilly.azurewebsites.net/running-node-and-express-on-ubuntu-vm/
+          
+>>Building and Deploying Windows Azure Web Site with Node.js and MongoDB
+https://weblogs.asp.net/shijuvarghese/building-and-deploying-windows-azure-web-site-with-node-js-and-mongodb-by-using-microsoft-webmatrix
 
 
 Not required!!
