@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Online Recipes</a>
+              <form class="navbar-form" action ="/searchproducts" method="get" role="form">
+                              <div class="input-group">
+                                  <input type="searchtext" name="query" class="form-control" placeholder="Search">
+                                  <div class="input-group-btn">
+                                      <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                  </div>
+                              </div>
+              </form>
+          </div>
+  
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Video CD's!</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                         aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle" aria-hidden="true"></i> Account<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="#">Help</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Log Out</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+  </nav>  
+
+      <div class="container">
+      
+    <div class="row">
+            
+                <div class="thumbnail">
+                    <div class="caption">
+                    <h3><label for="brand"> Lemon Chicken Recipe:&nbsp;</label> <label id="idBrand" > </label></h3>
+                    <img src="http://res.cloudinary.com/kkbigdata/image/upload/v1493132236/punjabi_lemon_chicken_sme25v.jpg" alt="..." align = "center">
+                    </div>
+               
+            
+  
+<form class="getProductDetails" method="get" action="http://127.0.0.1:8081/process_get">
+	<div style="display:none;"  id="productInfo"><%= productInfo %></div>
+	<table id="pageTable">
+
+<table id="pageTable">
+
+<tr>
+<td>
+	<div id="recipeDetails">
+
+
+	<table id="recipeTable">
+		<tr>
+		<td id="productImgTD" width="35%">  </td>
+		<td> 
+		 
+	<label for="name"><b> Recipe Name:&nbsp; </b></label> <label id="idName" > Lemon Chicken </label> 
+	<br><br>
+	<label for="regprice" style=" font-weight: bold;"> Approx Expense: &nbsp;$ </label> <label id="idPrice" style="color:#cc0000"> 50 </label>
+	<br><br>
+	<label for="cookingtime" style=" font-weight: bold;" > Cooking time:&nbsp;</label><label id="idCooktime" > 150 minutes </label>
+	<br><br>
+	<label for="serves" style=" font-weight: bold;"> Serves:&nbsp; </label><label id="idserves" > 4 people </label>
+	<br><br>
+	<label for="rating" style=" font-weight: bold;"> Customer Rating:&nbsp;</label><label id="idRating" >  3 star </label>
+	<br><br>
+    <label for="modelnumber" style=" font-weight: bold;"> Ingredients:&nbsp; </label><label id="idModel" > 6 chicken thighs without skin - For the base: 3-4 Tbsp refined oil  tsp cumin seeds 2 onions julienned - 6 cloves garlic chopped - 1/2 inch ginger chopped - 3-4 hot green chillies - 3/4 tsp turmeric powder - 1 tsp coriander powder - Salt to taste - 1 cup fresh lemon juice -1/2 cup orange juice - 1/4 cup fresh sugarcane juice - Fresh coriander to garnish.</label>
+	<br><br><br>
+	<label for="modelnumber" style=" font-weight: bold;"> Directions:&nbsp; </label> 
+	<label id="idModel" > Heat a heavy cooking vessel on a high heat and once its hot, add the refined oil and swirl the pan to coat the base evenly. Once the oil is nice and hot, add the cumin seeds and saute them until crackling and fragrant. Now add the onions, garlic and ginger and sauté them gently until they take on a light golden brown color. Turn up the heat and then add the spice powders. Toast the spices on a high heat until they are intensely aromatic and well toasted. Then add a little water and bhuno the base ingredients repeatedly until the oil rises to the top and the masala is well cooked out. Add some salt and mix well, then add the chicken thighs to the pan. Turn up the heat and fry the chicken in the masala until it is evenly coated with the flavor of the base and is a very light yellowy golden brown in color.  Now add the lemon and orange juice to the chicken and deglaze the pan well, scraping up the flavor packed pan deposits on the base of the pan. Stir everything together well to combine, then add a little sugarcane juice to balance the acidity of the lemon juice.  Bring the chicken to a boil, then turn the heat to low, cover the pan and let the chicken simmer away until it is cooked to perfection and almost falling off the bone.  Once the chicken is cooked, uncover the pan and simmer the light gravy until slightly reduced and concentrated in flavor. Turn off the heat, then garnish with fresh coriander and serve with hot rotis or rice.
+</label>
+	<br><br><br>
+	</td>
+	</tr>
+	</table>
+	</td></tr>
+	 </div>
+	 </table>
+	 </form>
+      </div>
+  </div>
+    
+          
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  </body>
+</html>
