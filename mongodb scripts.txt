@@ -2,7 +2,7 @@ DB : project
 COllection : Recipe
 **************************************************************************************************************
 
-db.Recipe.insert({
+db.products.insert({
 Recipe_id: 1001, 
 category : "Breakfast", 
 name: "Apple Crisp", 
@@ -27,7 +27,7 @@ directions: "Preheat the oven to 350 degrees F. \nSlice apples and place in a ba
 ingredients: "1 cup sliced Apple \n2 tbsp Brown Sugar \n1/8 tsp Cinnamon \n1/2 cup rolled Oats \n1 scoop Vanilla Protein Powder \n2 tbsp Walnut pieces \nDash of Cinnamon \n1/4 cup Organic Honey \n1/2 cup Low-fat Greek Yogurt."});
 
 
-db.Recipe.insert({
+db.products.insert({
 Recipe_id: 1002, 
 category : "Breakfast", 
 name : "Baked French Toast",
@@ -52,7 +52,7 @@ directions: "Preheat the oven to 350 degrees F. \nLay bread slices in a shallow 
 ingredients: "6 slices Ezekiel Bread \n6 large Eggs \n1/2 cup Low-fat Geek Yogurt \n1 1/2 cups Milk \n2 tbsp Sugar \n1 tsp Vanilla Extract \n1 tsp Maple Extract \n1/2 cup Pecans"});
 
 
-db.Recipe.insert({
+db.products.insert({
 Recipe_id: 2001, 
 category : "Lunch", 
 name : "Curd Curry",
@@ -77,7 +77,7 @@ directions: "Take a bowl and mix the curd, gram four, asafoetida, jaggery, salt 
 ingredients: "3 cups curd \n3 Tbsp gram flour \nA pinch of asafoetida \nA pinch of jaggery \n1 tsp salt \n3 cups water \n1 Tbsp clarified butter \n1/4 cumin seeds \n1/2 tsp mustard seeds \n3 cloves \n1/2 tsp chopped ginger \nCurry leaves \n1 whole red chilly \n3 green chillies chopped"});
 
 
-db.Recipe.insert({
+db.products.insert({
 Recipe_id: 3001, 
 category : "Dinner", 
 name : "Lemon Chicken", 
