@@ -1,7 +1,6 @@
-DB : project
-COllection : Recipe
+DB : bigdata
+COllection : products
 **************************************************************************************************************
-
 db.products.insert({
 Recipe_id: 1001, 
 category : "Breakfast", 
